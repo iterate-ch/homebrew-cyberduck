@@ -4,12 +4,4 @@ This repository is the [Cyberduck CLI](https://duck.sh) (`duck`) Homebrew Tap fo
 
 ## Usage
 
-First, add this tap to your Brew:
-
-    brew tap iterate-ch/cyberduck
-
-Next, draft from the tap:
-
     brew install iterate-ch/cyberduck/duck
-
-Third, enjoy your new brew.
