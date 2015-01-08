@@ -2,9 +2,9 @@ require "formula"
 
 class Duck < Formula
   homepage "https://duck.sh/"
-  url "https://dist.duck.sh/duck-4.6.2.16313.tar.gz"
-  version "4.6.2.16313"
-  sha1 "5750c155fee25c2d015c0e5e427ee13caa7fe5b2"
+  url "https://dist.duck.sh/duck-4.6.2.16315.tar.gz"
+  version "4.6.2.16315"
+  sha1 "4b0de4d37d9b003ead9ee1a6ff173b70fa573e1a"
 
   def install
     # Because compiling would need a JDK and xcodebuild we just use the pre-compiled binary.
