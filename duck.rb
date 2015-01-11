@@ -1,7 +1,7 @@
 class Duck < Formula
   homepage "https://duck.sh/"
   url "https://dist.duck.sh/duck-4.6.2.16363.tar.gz"
-  sha1 "118148bb34c23540ed6e7857c62d20b1fe24a494"
+  sha1 "f31d20e4e37e7bf2c8c2306186ccde0b0526fcbb"
 
   def install
     # Because compiling would need a JDK and xcodebuild we just use the pre-compiled binary.
