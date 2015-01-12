@@ -5,3 +5,7 @@ This repository is the [Cyberduck CLI](https://duck.sh) (`duck`) Homebrew Tap fo
 ## Usage
 
     brew install iterate-ch/cyberduck/duck
+
+## Further Documentation
+
+Refer to the [Cyberduck Wiki](https://trac.cyberduck.io/wiki/help/en/howto/cli).
