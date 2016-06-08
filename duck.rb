@@ -1,7 +1,7 @@
 class Duck < Formula
   desc "Command-line interface for Cyberduck (a multi-protocol file transfer tool)"
   homepage "https://duck.sh/"
-  url "https://dist.duck.sh/nightly/duck-5.1.20406.tar.gz"
+  url "https://dist.duck.sh/nightly/duck-5.1.20425.tar.gz"
   sha256 "${source.sha256}"
 
   def install
@@ -11,7 +11,7 @@ class Duck < Formula
   end
 
   test do
-    unless "Cyberduck 5.1 (20406)\n".eql? %x(`#{bin}/duck -version`)
+    unless "Cyberduck 5.1 (20425)\n".eql? %x(`#{bin}/duck -version`)
       raise "Version mismatch"
     end
     filename = (testpath/"test")
