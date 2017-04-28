@@ -2,7 +2,7 @@ class Duck < Formula
   desc "Command-line interface for Cyberduck (a multi-protocol file transfer tool)"
   homepage "https://duck.sh/"
   url "https://dist.duck.sh/nightly/duck-6.0.0.24380.tar.gz"
-  sha256 "ca538a2222cbf38907dff50e384d017813cf8f899da92770d2bdaced7fd834dc"
+  sha256 "356e1830d208f41bec3f8cfde5e46de280e47e85b9adc60b14555f7003c988d3"
 
   def install
     # Because compiling would need a JDK and xcodebuild we just use the pre-compiled binary.
