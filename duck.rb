@@ -1,8 +1,8 @@
 class Duck < Formula
   desc "Command-line interface for Cyberduck (a multi-protocol file transfer tool)"
   homepage "https://duck.sh/"
-  url "https://dist.duck.sh/nightly/duck-9.4.0.44269.tar.gz"
-  sha256 "31580a81ec498cccd1c6f1073a82efb1ded851857137238b88c8ab279575dfde"
+  url "https://dist.duck.sh/nightly/duck-9.4.0.44274.tar.gz"
+  sha256 "521e5d3ebb16a436f888a32af7ba667c89316ff336cf0f91f7b05d4145d7997e"
   license "GPL-3.0-only"
 
   depends_on "openjdk@17"
@@ -16,7 +16,7 @@ class Duck < Formula
   end
 
   test do
-    unless "Cyberduck 9.4.0 (44269)\n".eql? %x(`#{bin}/duck -version`)
+    unless "Cyberduck 9.4.0 (44274)\n".eql? %x(`#{bin}/duck -version`)
       raise "Version mismatch"
     end
     filename = (testpath/"test")
